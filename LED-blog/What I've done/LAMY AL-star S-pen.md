@@ -1,3 +1,9 @@
+---
+title: Lamy AL-star S-pen
+lang: EN
+draft: false
+---
+
 
 ![[20250813_085724 1.jpg]]
 
