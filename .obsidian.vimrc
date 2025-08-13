@@ -63,4 +63,3 @@ set tabstop=4
 exmap delete-new-file obcommand app:delete-file
 nmap <Space>q :delete-new-file<CR>
 
-
