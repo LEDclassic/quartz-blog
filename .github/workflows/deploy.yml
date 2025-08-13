@@ -1,7 +1,7 @@
 name: Deploy Quartz to Pages
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 permissions:
   contents: read
   pages: write
@@ -13,9 +13,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: "22"
       - run: npm ci
-      - run: npx quartz build
+      - name: Build Quartz (LED-blog as content root)
+        run: npx quartz build -d LED-blog -o public
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
