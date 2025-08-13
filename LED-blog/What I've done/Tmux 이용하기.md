@@ -22,7 +22,7 @@ AuthorUrl: https://www.youtube.com/@coohde
 
 reddit에서 찾은 cheatsheet wallpaper도 참고. 
 
-![[tmux_cheatsheet.png]]
+![[tmux_cheatsheet.png|700]]
 
 
 ### Session vs Window vs Pane
