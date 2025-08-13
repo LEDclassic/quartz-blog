@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-![[20250813_085724 1.jpg|300]]
+![[LED-blog/content/assets/20250813_085724.jpg|300]]
 
 ![[LED-blog/content/assets/20250813_085809.jpg|300]]
 
