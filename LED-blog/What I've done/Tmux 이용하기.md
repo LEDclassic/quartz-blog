@@ -8,14 +8,16 @@ https://www.youtube.com/watch?v=H-q65az1G84
 터미널을 보다 효율적으로 사용하기 위한 tool이 뭐가 있을까 찾아보던 중 Tmux에 대해 알게되었다.  터미널 프로그램으로 iTerm2 사용중으로, 여기에 Tmux를 사용하면 터미널 종료 후에도 프로그램이 종료되지 않는다는 점.  그리고 여러 터미널을 동시에 띄워 놓기에 아주 용이하다는 점 등 좋아보이는 요소가 많아서 즉시 설치하게 되었다. 
 
 생활코딩의 영상으로 Tmux의 간단한 기능 및 장점을 확인할 수 있다. 
-```vid
-https://youtu.be/iTyjTM4Gujg?feature=shared
-Title: Tmux - 터미널을 더욱 효율적으로!
-Author: 생활코딩
-Thumbnail: https://i.ytimg.com/vi/iTyjTM4Gujg/mqdefault.jpg
-AuthorUrl: https://www.youtube.com/@coohde
-```
-https://www.youtube.com/watch?v=iTyjTM4Gujg
+<figure class="youtube-embed">
+  <a href="https://www.youtube.com/watch?v=iTyjTM4Gujg" target="_blank" rel="noopener">
+    <img src="https://img.youtube.com/vi/iTyjTM4Gujg/mqdefault.jpg" alt="youtube thumbnail" class="youtube-thumb" />
+    <figcaption class="youtube-caption">
+      <strong>Tmux - 터미널을 더욱 효율적으로!</strong><br>
+      <span class="channel-name">생활코딩</span>
+    </figcaption>
+  </a>
+</figure>
+
 
 
 

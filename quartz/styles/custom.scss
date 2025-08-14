@@ -1,24 +1,45 @@
 @use "./base.scss";
 
+/* 모든 이미지 가운데 정렬 */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%; /* 필요시 비율 조정 */
+  height: auto;
+}
+
+/* 유튜브 가운데 정렬 & 크기 조정 & 캡션 조정 */
+.youtube-embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 720px;
+}
+
+.youtube-thumb {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.youtube-thumb:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.youtube-caption {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #444;
+  text-align: center !important;
+}
+
+.channel-name {
+  font-size: 0.9rem;
+  color: #888;
+}
+
 // put your custom CSS here!
-
-/* Insert */
-main img, article img, .content img {
-  display: block;
-  margin: 1.2rem auto;
-  height: auto;
-  max-width: min(100%, 900px);
-}
-
-iframe[src*="youtube.com"], iframe[src*="youtu.be"], .video-embed iframe {
-  display: block;
-  margin: 1.2rem auto;
-  width: min(100%, 900px);
-  aspect-ratio: 16 / 9;
-  height: auto;
-}
-
-
-
-
-
