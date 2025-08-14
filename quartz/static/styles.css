@@ -25,6 +25,9 @@
 }
 
 .youtube-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 0.5rem;
   font-size: 1rem;
   line-height: 1.4;
