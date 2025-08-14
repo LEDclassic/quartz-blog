@@ -75,6 +75,7 @@ export interface GlobalConfiguration {
 export interface QuartzConfig {
   configuration: GlobalConfiguration
   plugins: PluginTypes
+  css?: string[]
 }
 
 export interface FullPageLayout {
