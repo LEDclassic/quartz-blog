@@ -6,13 +6,6 @@
   max-width: 720px;
 }
 
-.youtube-embed a {
-  text-decoration: none;
-  color: inherit;
-  display: inline-block;
-  text-align: center;
-}
-
 .youtube-thumb {
   width: 100%;
   max-width: 720px;
@@ -22,16 +15,15 @@
 
 .youtube-thumb:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }
 
 .youtube-caption {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-top: 0.5rem;
   font-size: 1rem;
   line-height: 1.4;
   color: #444;
+  text-align: center;
 }
 
 .channel-name {

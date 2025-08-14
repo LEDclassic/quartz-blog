@@ -11,7 +11,7 @@ if (!id) {
 
   tR += `<figure class="youtube-embed">
   <a href="https://www.youtube.com/watch?v=${id}" target="_blank" rel="noopener">
-    <img src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="YouTube Thumbnail" class="youtube-thumb" />
+    <img src="https://img.youtube.com/vi/${id}/mqdefault.jpg" alt="youtube thumbnail" class="youtube-thumb" />
     <figcaption class="youtube-caption">
       <strong>${title}</strong><br>
       <span class="channel-name">${channel}</span>
@@ -20,3 +20,4 @@ if (!id) {
 </figure>`;
 }
 -%>
+
