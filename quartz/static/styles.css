@@ -1,13 +1,37 @@
 .youtube-embed {
   display: flex;
-  justify-content: center;
-  margin: 2rem 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  max-width: 720px;
 }
 
-.youtube-embed iframe {
+.youtube-embed a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-align: center;
+}
+
+.youtube-thumb {
   width: 100%;
   max-width: 720px;
-  height: 405px;
-  border-radius: 8px;
-  border: none;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.youtube-thumb:hover {
+  transform: scale(1.02);
+}
+
+.youtube-caption {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+.channel-name {
+  font-size: 0.9rem;
+  color: #888;
 }
