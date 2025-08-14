@@ -1,0 +1,13 @@
+.youtube-embed {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.youtube-embed iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 405px;
+  border-radius: 8px;
+  border: none;
+}

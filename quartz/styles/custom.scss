@@ -1,3 +1,24 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* Insert */
+main img, article img, .content img {
+  display: block;
+  margin: 1.2rem auto;
+  height: auto;
+  max-width: min(100%, 900px);
+}
+
+iframe[src*="youtube.com"], iframe[src*="youtu.be"], .video-embed iframe {
+  display: block;
+  margin: 1.2rem auto;
+  width: min(100%, 900px);
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+
+
+
+

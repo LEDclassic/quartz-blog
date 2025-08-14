@@ -3,6 +3,7 @@ title: 내 글 제목
 lang: ko
 draft: false
 ---
+https://www.youtube.com/watch?v=H-q65az1G84
 
 터미널을 보다 효율적으로 사용하기 위한 tool이 뭐가 있을까 찾아보던 중 Tmux에 대해 알게되었다.  터미널 프로그램으로 iTerm2 사용중으로, 여기에 Tmux를 사용하면 터미널 종료 후에도 프로그램이 종료되지 않는다는 점.  그리고 여러 터미널을 동시에 띄워 놓기에 아주 용이하다는 점 등 좋아보이는 요소가 많아서 즉시 설치하게 되었다. 
 
@@ -14,15 +15,16 @@ Author: 생활코딩
 Thumbnail: https://i.ytimg.com/vi/iTyjTM4Gujg/mqdefault.jpg
 AuthorUrl: https://www.youtube.com/@coohde
 ```
+https://www.youtube.com/watch?v=iTyjTM4Gujg
 
 
 
-![[CleanShot 2025-08-08 at 16.15.10.png]]
+![[LED-blog/content/assets/CleanShot 2025-08-08 at 16.15.10.png]]
 
 
 reddit에서 찾은 cheatsheet wallpaper도 참고. 
 
-![[tmux_cheatsheet.png|700]]
+![[LED-blog/content/assets/tmux_cheatsheet.png|700]]
 
 
 ### Session vs Window vs Pane
