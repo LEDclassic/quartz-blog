@@ -4,8 +4,8 @@ description: "hello"
 lang: ko
 translated: index.md
 created: 2025-08-15
-tags: [ko]
-draft: true
+tags: [ko, hidden] 
+draft: false
 ---
 
 나는 이게 좋다. 
