@@ -4,7 +4,7 @@ description: "hello"
 lang: ko
 translated: index.md
 created: 2025-08-15
-tags: [ko] 
+tags: [hidden-ko] 
 draft: false
 ---
 
