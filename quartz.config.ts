@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "ledclassic.github.io/quartz-blog",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/*hidden*"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/*translated*"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

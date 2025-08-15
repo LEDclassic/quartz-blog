@@ -7,7 +7,7 @@ created: 2025-08-15
 tags: [eng]
 draft: false
 ---
-[🇰🇷 한국어로 보기](index.ko)
+[🇰🇷 한국어로 보기](translated.ko.md)
 
 I like this. 
 I want to test this. 
