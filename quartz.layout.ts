@@ -6,12 +6,16 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
+  //footers 나중에 연결되는 웹사이트 있으면 추가할 것.
+  footer: Component
+    .Footer
+    /**{
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "Discord Community": "https://discord.gg/cRFFHYye8t",
     },
-  }),
+  }**/
+    (),
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -41,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer(),
   ],
   right: [
-    Component.Graph(),
+    //Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
